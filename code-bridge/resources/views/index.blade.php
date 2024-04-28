@@ -1,13 +1,13 @@
 @extends('layouts.main')
 
 @section('main-section')
-<section class="section-0 lazy d-flex bg-image-style dark align-items-center "   class="" data-bg="assets/images/banner5.jpg">
+<section class="section-0 lazy d-flex bg-image-style dark align-items-center "   class="" data-bg="assets/images/jobs-banner.png">
     <div class="container">
         <div class="row">
             <div class="col-12 col-xl-8">
                 <h1>Find your dream job</h1>
                 <p>Thounsands of jobs available.</p>
-                <div class="banner-btn mt-5"><a href="#" class="btn btn-primary mb-4 mb-sm-0">Explore Now</a></div>
+                <div class="banner-btn mt-5"><a href="/jobs" class="btn btn-primary mb-4 mb-sm-0">Explore Now</a></div>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
                 
                 <div class=" col-md-3 mb-xs-3 mb-sm-3 mb-lg-0">
                     <div class="d-grid gap-2">
-                        <a href="jobs.html" class="btn btn-primary btn-block">Search</a>
+                        <a href="/jobs" class="btn btn-primary btn-block">Search</a>
                     </div>
                     
                 </div>
@@ -50,49 +50,49 @@
         <div class="row pt-5">
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Design &amp; Creative</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Design &amp; Creative</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Finance</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Finance</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Banking</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Banking</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Data Science</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Data Science</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Marketing</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Marketing</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Digital Marketing</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Digital Marketing</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Digital Marketing</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Digital Marketing</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
             <div class="col-lg-4 col-xl-3 col-md-6">
                 <div class="single_catagory">
-                    <a href="jobs.html"><h4 class="pb-2">Digital Marketing</h4></a>
+                    <a href="/jobs"><h4 class="pb-2">Digital Marketing</h4></a>
                     <p class="mb-0"> <span>50</span> Available position</p>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +259,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -300,7 +300,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +327,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -353,7 +353,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -379,7 +379,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -405,7 +405,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg">Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -431,7 +431,7 @@
                                     </div>
 
                                     <div class="d-grid mt-3">
-                                        <a href="job-detail.html" class="btn btn-primary btn-lg ">Details</a>
+                                        <a href="/job-detail" class="btn btn-primary btn-lg ">Details</a>
                                     </div>
                                 </div>
                             </div>

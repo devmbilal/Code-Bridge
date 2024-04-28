@@ -8,7 +8,7 @@
             <div class="col">
                 <nav aria-label="breadcrumb" class=" rounded-3 p-3 mb-4">
                     <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item active">Account Settings</li>
                     </ol>
                 </nav>
@@ -30,19 +30,19 @@
                     <div class="card-body p-0">
                         <ul class="list-group list-group-flush ">
                             <li class="list-group-item d-flex justify-content-between p-3">
-                                <a href="account.html">Account Settings</a>
+                                <a href="/account">Account Settings</a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                <a href="post-job.html">Post a Job</a>
+                                <a href="/post-job">Post a Job</a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                <a href="my-jobs.html">My Jobs</a>
+                                <a href="/my-jobs">My Jobs</a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                <a href="job-applied.html">Jobs Applied</a>
+                                <a href="/jobs-applied">Jobs Applied</a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center p-3">
-                                <a href="saved-jobs.html">Saved Jobs</a>
+                                <a href="/saved-jobs">Saved Jobs</a>
                             </li>                                                        
                         </ul>
                     </div>

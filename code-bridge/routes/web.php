@@ -40,7 +40,7 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/saved-job', function () {
+Route::get('/saved-jobs', function () {
     return view('saved-job');
 });
 
