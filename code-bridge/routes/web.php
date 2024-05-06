@@ -24,9 +24,6 @@ Route::get('/jobs', function () {
     return view('jobs');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
 Route::get('/my-jobs', function () {
     return view('my-jobs');
@@ -36,11 +33,14 @@ Route::get('/post-job', function () {
     return view('post-job');
 });
 
-Route::get('/register', function () {
-    return view('register');
-});
 
 Route::get('/saved-jobs', function () {
     return view('saved-job');
 });
+
+// Registration route
+Route::post('/register', 'AuthController@register')->name('register');
+
+// Login route
+Route::post('/login', 'AuthController@login')->name('login');
 
